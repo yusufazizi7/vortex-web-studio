@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Vortex Web Studio</title>
+    <meta name="description" content="Get in touch with Vortex Web Studio for professional web design and development services. Let's discuss your project today!">
+    <link rel="stylesheet" href="Styling/global.css">
+    <link rel="stylesheet" href="Styling/contact.css">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <!-- Font Awesome (Latest Version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><div class="logo">Vortex Web Studio</div></a>
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="why-us.html">Why us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <i class="fa-solid fa-bars fa-2xl" id="menu-toggle"></i>
+
+        </nav>
+    </header>
+
+    <section id="contact-intro">
+        <h1>Contact Us</h1>
+        <p>Have a project in mind? Let's talk!</p>
+    </section>
+
+    <section id="contact-form">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Our Contact Details</h2>
+                <p><strong>Email:</strong> info@vortexwebstudio.com</p>
+                <p><strong>Phone:</strong> +61 470 259 713</p>
+                <p><strong>Address:</strong> Perth, WA, Australia</p>
+            </div>
+
+            <div class="form-container">
+                <h2>Send Us a Message</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="12c54ac0-ebf3-4c2d-a29d-b6326bce45d8">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vortex Web Studio. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:info@vortexwebstudio.com">info@vortexwebstudio.com</a></p>
+    </footer>
+    
+    <script src="Scripts/global.js"></script>
+
+</body>
+</html>
