@@ -85,15 +85,14 @@
     #portfolio-gallery {
         flex-direction: column;
         align-items: center;
-        padding: 30px;
+        padding: 20px;
         margin: 50px 0;
     }
 
-
-
     .portfolio-item {
-        width: 90%;
-        max-width: 350px;
+        width: 60%; /* Make items slightly wider */
+        max-width: 320px; /* Prevent them from being too large */
+        padding: 15px; /* Reduce padding */
     }
 
     #portfolio-intro {
@@ -101,21 +100,24 @@
     }
 
     #portfolio-cta {
-        padding: 40px 20px;
+        padding: 30px 20px;
     }
 }
 
 /* Small Screens (Phones) */
 @media (max-width: 480px) {
     .portfolio-item {
-        width: 100%;
+        width: 90%; /* Slightly smaller on phones */
+        max-width: 280px; /* Prevent items from getting too big */
+        padding: 12px; /* Adjust spacing */
     }
 
     .portfolio-item h2 {
-        font-size: 20px;
+        font-size: 20px; /* Keep it readable */
     }
 
     .portfolio-item p {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
+
