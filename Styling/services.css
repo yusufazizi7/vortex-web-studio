@@ -68,8 +68,41 @@
         flex-direction: column;
         align-items: center;
     }
-
-    
+   
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    #services-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        margin: 80px 0; /* Reduce margin to keep spacing balanced */
+    }
+
+    .service {
+        width: 75%; /* Make services thinner but not too narrow */
+        max-width: 280px; /* Prevents them from being too large */
+        padding: 15px; /* Reduce padding for compactness */
+    }
+}
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+    .service {
+        width: 85%; /* Slightly wider on very small screens */
+        max-width: 260px;
+        padding: 12px;
+    }
+
+    .service h2 {
+        font-size: 20px; /* Reduce title size slightly */
+    }
+
+    .service p {
+        font-size: 14px;
+    }
+}
+
 
 
